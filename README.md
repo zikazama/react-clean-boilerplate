@@ -24,19 +24,13 @@ This project is a ReactJS application using TypeScript and Vite. It includes CRU
 
     ```bash
     git clone https://github.com/zikazama/react-clean-boilerplate 
-    cd your-repo
+    cd react-clean-boilerplate
     ```
 
 2. **Install dependencies**
 
     ```bash
     npm install
-    ```
-
-3. **Install server dependencies**
-
-    ```bash
-    npm install express ws body-parser firebase-admin dotenv
     ```
 
 ## Configuration
@@ -54,12 +48,7 @@ This project is a ReactJS application using TypeScript and Vite. It includes CRU
     VITE_FIREBASE_VAPID_KEY=your_vapid_key
     ```
 
-2. **Firebase Setup**
-
-    - Go to the [Firebase Console](https://console.firebase.google.com/), create a new project, and add a web app to your project.
-    - Download the `serviceAccountKey.json` file and place it in your project root (for server-side notifications).
-
-3. **Create `public/env.js`**
+2. **Create `public/env.js`**
 
     ```javascript
     window.env = {
